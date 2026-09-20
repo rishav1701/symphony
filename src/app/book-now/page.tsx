@@ -71,14 +71,6 @@ export default function BookNowPage() {
         >
           <BookNowContent />
         </Suspense>
-
-        {/* Dev-only banner */}
-        {process.env.NEXT_PUBLIC_SHOW_PLACEHOLDERS === "true" && (
-          <div className="mt-8 p-4 border border-dashed border-gold/40 rounded bg-gold-15 text-center text-xs text-muted">
-            <strong>Dev note:</strong> No real-time availability backend is connected.
-            Data is served from <code>data/booking.ts</code>.
-          </div>
-        )}
       </Container>
     </div>
   );

@@ -42,38 +42,6 @@ export const venueStats: SiteStat[] = [
     icon: "Bike",
     placeholder: true,
   },
-  {
-    id: "air-conditioning",
-    value: "AC",
-    label: "Fully Air-Conditioned",
-    description: "Climate-controlled throughout",
-    icon: "Wind",
-    placeholder: true,
-  },
-  {
-    id: "private-rooms",
-    value: "2",
-    label: "Private Rooms",
-    description: "Dedicated spaces for bridal or VIP use",
-    icon: "DoorOpen",
-    placeholder: true,
-  },
-  {
-    id: "accessibility",
-    value: "Ground Floor",
-    label: "Easy Accessibility",
-    description: "Step-free access on the ground level",
-    icon: "Accessibility",
-    placeholder: true,
-  },
-  {
-    id: "power-backup",
-    value: "Backup",
-    label: "Power Generator",
-    description: "Uninterrupted power supply guaranteed",
-    icon: "Zap",
-    placeholder: true,
-  },
 ];
 
 /* ── Specifications (shared on Home + About) ──────────────── */
