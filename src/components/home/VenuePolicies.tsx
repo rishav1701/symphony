@@ -6,12 +6,12 @@ import { Reveal } from "@/components/shared/Reveal";
 import { PlaceholderNote } from "@/components/shared/PlaceholderNote";
 import { BookingTerms } from "./BookingTerms";
 import {
-  Music, Sparkles, ChefHat, Wine, Flame, PawPrint,
+  Music, Sparkles, ChefHat, Wine, Flame, PawPrint, Car,
 } from "lucide-react";
 import type { VenuePolicy } from "@/data/types";
 
 const iconMap: Record<string, React.ComponentType<{ size: number; className?: string }>> = {
-  Music, Sparkles, ChefHat, Wine, Flame, PawPrint,
+  Music, Sparkles, ChefHat, Wine, Flame, PawPrint, Car,
 };
 
 function PolicyRow({ policy }: { policy: VenuePolicy }) {

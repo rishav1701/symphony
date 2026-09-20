@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Gallery",
   description:
-    "Explore the architectural spaces, main auditorium, banquet halls, and wedding setups at Symphony Auditorium.",
+    "Explore the architectural spaces, main auditorium, banquet halls, and wedding setups at Symphony Convention Centre.",
   path: "/gallery",
 });
 

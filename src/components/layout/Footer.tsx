@@ -35,7 +35,7 @@ export function Footer() {
                     SYMPHONY
                   </span>
                   <span className="font-sans text-[8px] font-medium tracking-[0.25em] uppercase text-white/50 mt-0.5">
-                    AUDITORIUM
+                    CONVENTION CENTRE
                   </span>
                 </div>
               </div>

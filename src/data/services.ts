@@ -9,7 +9,7 @@ const services: Service[] = [
     description:
       "A stage set for your most meaningful celebration. Symphony offers the space, the infrastructure, and the atmosphere for weddings of every scale — intimate or grand.",
     image: "/images/services-weddings.jpg",
-    imageAlt: "Wedding ceremony at Symphony Auditorium",
+    imageAlt: "Wedding ceremony at Symphony Convention Centre",
     cta: { label: "Enquire about weddings", href: "/contact?type=wedding" },
   },
   {
@@ -19,7 +19,7 @@ const services: Service[] = [
     description:
       "Host your reception in a space designed for gathering, dining, and celebration. Flexible seating, professional lighting, and catering support included.",
     image: "/images/services-receptions.jpg",
-    imageAlt: "Reception event at Symphony Auditorium",
+    imageAlt: "Reception event at Symphony Convention Centre",
     cta: { label: "Enquire about receptions", href: "/contact?type=reception" },
   },
   {
@@ -59,7 +59,7 @@ const services: Service[] = [
     description:
       "Birthdays, anniversaries, engagements — private celebrations deserve a setting that feels special without being overwhelming.",
     image: "/images/services-private.jpg",
-    imageAlt: "Private celebration setup at Symphony Auditorium",
+    imageAlt: "Private celebration setup at Symphony Convention Centre",
     cta: { label: "Enquire about celebrations", href: "/contact?type=birthday" },
   },
 ];

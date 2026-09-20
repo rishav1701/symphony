@@ -5,9 +5,9 @@ const cateringSections: CateringSection[] = [
   {
     id: "c-menu", order: 1, published: true,
     slug: "menu-options",
-    title: "Menu Options",
+    title: "In-House & Outside Catering",
     description:
-      "A range of menu styles to suit the scale and character of your event. Discuss your preferences and our catering partners will present options.",
+      "Our in-house catering team serves a delightful variety of cuisines blending local and global flavours with transparent price-per-plate options. Outside catering and food are also warmly welcomed.",
     image: "/images/catering-menu.jpg",
     imageAlt: "Catering menu presentation",
     items: [],
@@ -17,7 +17,7 @@ const cateringSections: CateringSection[] = [
     slug: "dining-arrangements",
     title: "Dining Arrangements",
     description:
-      "From seated formal dining to standing buffets, the hall accommodates a variety of dining configurations.",
+      "From seated traditional Sadya to standing buffets and live counters, the halls accommodate seamless dining for up to 3,000 guests.",
     image: "/images/catering-dining.jpg",
     imageAlt: "Dining arrangement in the banquet hall",
     items: [],

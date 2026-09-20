@@ -13,7 +13,7 @@ import { PlaceholderNote } from "@/components/shared/PlaceholderNote";
 export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
-    "Learn about Symphony Auditorium: our architectural vision, acoustics, comprehensive event specifications, and premier amenities in Kerala.",
+    "Learn about Symphony Convention Centre in Chemmanthoor, Punalur, Kollam: 8+ years in business, 250+ weddings, banquet halls, and comprehensive amenities.",
   path: "/about",
 });
 
@@ -27,29 +27,32 @@ export default function AboutPage() {
           <div className="lg:col-span-7 space-y-6">
             <div>
               <span className="font-sans text-xs font-semibold uppercase tracking-[0.15em] text-gold block mb-2">
-                Our Story
+                Our Story · Est. 2018 · 8+ Years · 250+ Weddings
               </span>
               <h1 className="font-serif text-3xl md:text-5xl text-navy font-normal leading-tight">
-                A space created for celebrations, gatherings and unforgettable occasions.
+                A stunning banquet & convention venue designed for unforgettable memories.
               </h1>
             </div>
 
             {/* Serif Pull-Quote */}
             <blockquote className="border-l-2 border-gold pl-6 py-2 my-8">
               <p className="font-serif text-xl md:text-2xl text-royal italic leading-snug">
-                “We conceived Symphony as a concert hall for life&apos;s milestones — where architecture, acoustics, and hospitality unite in resonant harmony.”
+                “Known for warm hospitality and modern amenities, Symphony Convention Centre effortlessly blends style, space, and comfort to give your event the ideal setting it deserves.”
               </p>
             </blockquote>
 
             <div className="space-y-5 text-muted leading-relaxed text-base font-sans">
               <p>
-                Rooted in Kerala&apos;s rich tradition of community celebration and cultural gatherings, Symphony Auditorium was envisioned as a modern sanctuary of hospitality. Every architectural contour — from the coffered acoustic ceilings to the gracious proscenium arch — was sculpted to honor the magnitude of life&apos;s defining ceremonies.
+                Step into the world of celebrations at Symphony Convention Centre, a premier banquet hall in Chemmanthoor, Punalur, Kollam. Established in 2018, our venue has proudly hosted over 250 weddings, heartfelt family milestones, and refined corporate gatherings across more than 8 years in business.
               </p>
               <p>
-                Whether welcoming over fifteen hundred guests for an opulent wedding or hosting a nuanced classical musical concert, the auditorium balances vast, pillar-free sightlines with a welcoming atmosphere. High-efficiency climate control maintains seamless comfort through every season, while intelligent stage illumination highlights the joy on every face.
+                The property features versatile spaces to suit celebrations of any scale: our grand Symphony Convention Centre Main Hall accommodating 2,000 seated and 3,000 floating guests, alongside the elegant Symphony Mini Hall designed for intimate gatherings of 150 seated and 200 floating guests. With dedicated parking for 500 vehicles, every guest arrives, celebrates, and departs without hassle.
               </p>
               <p>
-                Our philosophy centers on quiet operational excellence. Dedicated green rooms, private bridal suites, expansive multi-tier dining halls, and extensive on-site parking ensure hosts and families can immerse themselves wholly in their milestone day without distraction.
+                For hosts and families, the venue offers 3 air-conditioned and Non-AC guest rooms maintained for a comfortable stay experience, plus a private bridal suite perfect for those pre-ceremony moments of calm and final touch-ups. Elegant indoor spaces and beautifully curated outdoor areas can be tailored to fit your exact celebration theme.
+              </p>
+              <p>
+                Guests particularly praise the dining experience, with in-house catering blending local and global flavors with justified, transparent pricing per plate, alongside full freedom for outside catering and decorators. Complete electricity backup, professional stage lighting, top-notch sound systems, and professional DJ setups ensure your event stays high-energy and uninterrupted till the very end.
               </p>
             </div>
           </div>
@@ -60,7 +63,7 @@ export default function AboutPage() {
               <div className="max-w-md mx-auto lg:max-w-none">
                 <ArchImage
                   src="/images/about-auditorium.jpg"
-                  alt="Symphony Auditorium proscenium stage and hall"
+                  alt="Symphony Convention Centre main hall and stage"
                   width={600}
                   height={800}
                   framed

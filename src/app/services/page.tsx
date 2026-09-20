@@ -11,7 +11,7 @@ import { Calendar, Eye, CheckCircle2, PartyPopper } from "lucide-react";
 export const metadata: Metadata = buildMetadata({
   title: "Services & Events",
   description:
-    "Discover the event possibilities at Symphony Auditorium: weddings, receptions, cultural performances, seminars, and corporate events.",
+    "Discover the event possibilities at Symphony Convention Centre: weddings, receptions, cultural performances, seminars, and corporate events.",
   path: "/services",
 });
 

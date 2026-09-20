@@ -71,7 +71,7 @@ export function Header() {
                   isSolid ? "text-muted" : "text-white/70"
                 )}
               >
-                AUDITORIUM
+                CONVENTION CENTRE
               </span>
             </div>
           </Link>

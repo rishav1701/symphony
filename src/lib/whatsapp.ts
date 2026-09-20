@@ -1,7 +1,7 @@
 import { contactInfo } from "@/data/contact";
 
 const DEFAULT_MESSAGE =
-  "Hello Symphony Auditorium, I would like to enquire about booking the venue.";
+  "Hello Symphony Convention Centre, I would like to enquire about booking the venue.";
 
 /**
  * Builds a WhatsApp URL with an optional pre-filled message.
@@ -25,7 +25,7 @@ export function buildBookingWhatsAppUrl(details: {
   guestCount?: string;
 }): string {
   const lines = [
-    `Hello Symphony Auditorium, I would like to enquire about booking the venue on ${details.date}.`,
+    `Hello Symphony Convention Centre, I would like to enquire about booking the venue on ${details.date}.`,
     "",
     `Name: ${details.name}`,
     `Phone: ${details.phone}`,

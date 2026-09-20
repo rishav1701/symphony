@@ -19,21 +19,13 @@ export function StorySection() {
 
             <div className="space-y-4 text-ink/80 leading-relaxed">
               <p>
-                Symphony Auditorium was conceived as a space where architecture
-                serves celebration. Every proportion — from ceiling height to
-                stage depth — is calibrated for the events that take place here.
+                Step into the world of celebrations at Symphony Convention Centre, a stunning banquet and convention venue in Chemmanthoor, Punalur, Kollam, designed to turn every occasion into a beautiful memory.
               </p>
               <p>
-                The name reflects an intent: to bring together light, sound, and
-                space in a way that supports the occasion without overshadowing
-                it. This is not a repurposed hall. It was built from the ground
-                up as an event venue.
+                Established in 2018 with 8+ years in business and over 250+ weddings celebrated, we effortlessly blend style, space, and comfort. Featuring our grand 2,000-seat Main Hall (3,000 floating), the 150-seat Symphony Mini Hall, 3 AC guest rooms, a private bridal suite, and dedicated parking for 500 cars, every event unfolds effortlessly.
               </p>
               <p>
-                Located in Kerala, the auditorium accommodates gatherings of
-                many scales — from seated conferences to full wedding
-                celebrations — with the infrastructure, accessibility, and
-                service standards each format requires.
+                From delicious in-house catering to outside catering and decorator freedom, our full power backup and dedicated team take care of every detail.
               </p>
             </div>
 
@@ -48,7 +40,7 @@ export function StorySection() {
           <Reveal delay={150}>
             <ArchImage
               src="/images/about.jpg"
-              alt="Interior view of Symphony Auditorium"
+              alt="Interior view of Symphony Convention Centre"
               width={600}
               height={750}
               withFrame
