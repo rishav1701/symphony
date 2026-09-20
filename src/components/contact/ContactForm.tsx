@@ -321,7 +321,7 @@ export function ContactForm({ initialType }: ContactFormProps) {
               <div className="flex flex-col sm:flex-row gap-2 pt-1">
                 <a
                   href={buildWhatsAppUrl(
-                    `Hello Symphony Auditorium, I would like to enquire about hosting an event.\n\nName: ${submittedData.name}\nPhone: ${submittedData.phone}\nEmail: ${submittedData.email}\nEvent Date: ${submittedData.eventDate || "—"}\nEvent Type: ${submittedData.eventType || "—"}\nGuest Count: ${submittedData.guestCount || "—"}\nMessage: ${submittedData.message || "—"}`
+                    `Hello Symphony Convention Centre, I would like to enquire about hosting an event.\n\nName: ${submittedData.name}\nPhone: ${submittedData.phone}\nEmail: ${submittedData.email}\nEvent Date: ${submittedData.eventDate || "—"}\nEvent Type: ${submittedData.eventType || "—"}\nGuest Count: ${submittedData.guestCount || "—"}\nMessage: ${submittedData.message || "—"}`
                   )}
                   target="_blank"
                   rel="noopener noreferrer"

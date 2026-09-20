@@ -156,7 +156,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
             <a
               href={`tel:${contactInfo.phone}`}
               className="flex items-center gap-2 text-white/60 hover:text-white text-sm font-sans transition-colors"
-              aria-label="Call Symphony Auditorium"
+              aria-label="Call Symphony Convention Centre"
             >
               <Phone size={16} />
               <span>Call</span>
@@ -166,7 +166,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
               target="_blank"
               rel="noopener"
               className="flex items-center gap-2 text-white/60 hover:text-white text-sm font-sans transition-colors"
-              aria-label="WhatsApp Symphony Auditorium"
+              aria-label="WhatsApp Symphony Convention Centre"
             >
               <MessageCircle size={16} />
               <span>WhatsApp</span>

@@ -6,7 +6,7 @@ import { contactInfo } from "@/data/contact";
  */
 export function buildMailto(payload: EnquiryPayload): string {
   const subject = encodeURIComponent(
-    `Event Enquiry — ${payload.eventType || "General"} — Symphony Auditorium`
+    `Event Enquiry — ${payload.eventType || "General"} — Symphony Convention Centre`
   );
 
   const bodyLines = [

@@ -54,7 +54,8 @@ export function buildJsonLd(): Record<string, unknown> {
     jsonLd.email = contactInfo.email;
     jsonLd.address = {
       "@type": "PostalAddress",
-      addressLocality: "Kerala",
+      addressLocality: "Punalur, Kollam",
+      addressRegion: "Kerala",
       addressCountry: "IN",
       streetAddress: contactInfo.address,
     };

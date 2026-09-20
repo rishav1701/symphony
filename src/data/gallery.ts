@@ -13,7 +13,7 @@ const galleryItems: GalleryItem[] = [
   {
     id: "g-01", order: 1, published: true,
     title: "Grand Entrance", category: "entrance-exterior",
-    src: "/images/gallery-01.jpg", alt: "Symphony Auditorium grand entrance with arched doorway",
+    src: "/images/gallery-01.jpg", alt: "Symphony Convention Centre grand entrance with arched doorway",
     width: 800, height: 1000,
   },
   {

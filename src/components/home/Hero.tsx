@@ -77,9 +77,9 @@ export function Hero() {
 
           <div ref={contentRef} className="reveal">
             <p className="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-xl">
-              A premium event venue in Kerala, purpose-built for celebrations
-              that deserve an exceptional setting. From grand weddings to
-              intimate gatherings, every detail is designed around your event.
+              Premier banquet halls and convention centre in Chemmanthoor, Punalur, Kollam.
+              Established in 2018 with 250+ weddings hosted, offering up to 3,000 capacity,
+              3 AC guest rooms, and dedicated 500 car parking.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">

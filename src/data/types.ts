@@ -1,5 +1,5 @@
 /* ───────────────────────────────────────────────────────────
- *  Symphony Auditorium — Shared TypeScript types
+ *  Symphony Convention Centre — Shared TypeScript types
  *  All data contracts live here so components and data files
  *  share a single source of truth.
  * ─────────────────────────────────────────────────────────── */

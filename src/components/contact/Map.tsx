@@ -11,7 +11,7 @@ export function Map() {
         <div className="relative w-full h-[280px] md:h-[320px] bg-navy/5">
           <iframe
             src={contactInfo.mapEmbedUrl}
-            title="Symphony Auditorium location map"
+            title="Symphony Convention Centre location map"
             className="w-full h-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -21,7 +21,7 @@ export function Map() {
 
         <div className="p-4 bg-ivory/60 border-t border-line flex items-center justify-between">
           <span className="text-xs text-muted">
-            Locate Symphony Auditorium on Google Maps
+            Locate Symphony Convention Centre on Google Maps
           </span>
           <Button
             variant="ghost"

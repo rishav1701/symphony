@@ -12,7 +12,7 @@ import { UtensilsCrossed, Sparkles } from "lucide-react";
 export const metadata: Metadata = buildMetadata({
   title: "Catering & Dining",
   description:
-    "Explore dining arrangements, traditional Kerala Sadya, and curated multi-cuisine catering for weddings and grand receptions at Symphony Auditorium.",
+    "Explore dining arrangements, traditional Kerala Sadya, in-house catering, and multi-cuisine banquets at Symphony Convention Centre.",
   path: "/catering",
 });
 
@@ -71,7 +71,7 @@ export default async function CateringPage() {
                 <div className="max-w-sm mx-auto lg:max-w-none">
                   <ArchImage
                     src="/images/catering-hero.jpg"
-                    alt="Symphony Auditorium catering and banquet dining arrangement"
+                    alt="Symphony Convention Centre catering and banquet dining arrangement"
                     width={500}
                     height={600}
                     framed
