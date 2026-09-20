@@ -28,7 +28,7 @@ export function Specifications({ onDark = false }: SpecificationsProps) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {specifications.map((spec, i) => (
-            <Reveal key={spec.id} delay={i * 60}>
+            <Reveal key={spec.id} delay={i * 60} className="h-full">
               <SpecItem spec={spec} />
             </Reveal>
           ))}

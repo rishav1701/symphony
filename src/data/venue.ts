@@ -90,9 +90,9 @@ export const specifications: Specification[] = [
   },
   {
     id: "spec-pricing",
-    value: "Time-Based",
-    label: "Rental Pricing",
-    detail: "Transparent pricing & competitive packages",
+    value: "Rent",
+    label: "Time-Based",
+    detail: "Transparent pricing",
     placeholder: false,
   },
   {
