@@ -62,7 +62,7 @@ export default function AboutPage() {
             <Reveal>
               <div className="max-w-md mx-auto lg:max-w-none">
                 <ArchImage
-                  src="/images/about-auditorium.jpg"
+                  src="/images/about-auditorium-arch.jpg"
                   alt="Symphony Convention Centre main hall and stage"
                   width={600}
                   height={800}

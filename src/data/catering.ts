@@ -8,7 +8,7 @@ const cateringSections: CateringSection[] = [
     title: "In-House & Outside Catering",
     description:
       "Our in-house catering team serves a delightful variety of cuisines blending local and global flavours with transparent price-per-plate options. Outside catering and food are also warmly welcomed.",
-    image: "/images/catering-menu.jpg",
+    image: "/images/catering-menu-new.jpg",
     imageAlt: "Catering menu presentation",
     items: [],
   },
@@ -18,7 +18,7 @@ const cateringSections: CateringSection[] = [
     title: "Dining Arrangements",
     description:
       "From seated traditional Sadya to standing buffets and live counters, the halls accommodate seamless dining for up to 3,000 guests.",
-    image: "/images/catering-dining.jpg",
+    image: "/images/catering-dining-new.jpg",
     imageAlt: "Dining arrangement in the banquet hall",
     items: [],
   },
@@ -28,7 +28,7 @@ const cateringSections: CateringSection[] = [
     title: "Vegetarian Options",
     description:
       "Extensive vegetarian menus featuring Kerala specialties and contemporary options. Every meal crafted with fresh, locally sourced ingredients.",
-    image: "/images/catering-veg.jpg",
+    image: "/images/catering-veg-new.jpg",
     imageAlt: "Vegetarian dishes presentation",
     items: [],
   },
@@ -38,7 +38,7 @@ const cateringSections: CateringSection[] = [
     title: "Non-Vegetarian Options",
     description:
       "Seafood, poultry, and meat preparations drawing from Kerala's culinary traditions, alongside national and international selections.",
-    image: "/images/catering-nonveg.jpg",
+    image: "/images/catering-nonveg-new.jpg",
     imageAlt: "Non-vegetarian dishes presentation",
     items: [],
   },
@@ -48,7 +48,7 @@ const cateringSections: CateringSection[] = [
     title: "Traditional Kerala Cuisine",
     description:
       "Sadya and traditional Kerala fare served on banana leaves. Ideal for ceremonies and cultural celebrations.",
-    image: "/images/catering-kerala.jpg",
+    image: "/images/catering-kerala-new.jpg",
     imageAlt: "Traditional Kerala sadya on banana leaf",
     items: [],
   },
@@ -58,7 +58,7 @@ const cateringSections: CateringSection[] = [
     title: "Event Catering",
     description:
       "Full-service catering coordination for weddings, receptions, and large gatherings. Our team manages setup, service, and cleanup.",
-    image: "/images/catering-event.jpg",
+    image: "/images/catering-event-new.jpg",
     imageAlt: "Full event catering service setup",
     items: [],
   },
@@ -68,7 +68,7 @@ const cateringSections: CateringSection[] = [
     title: "Buffet Arrangements",
     description:
       "Professionally arranged buffet counters with live cooking stations and a curated selection to serve large gatherings efficiently.",
-    image: "/images/catering-buffet.jpg",
+    image: "/images/catering-buffet-new.jpg",
     imageAlt: "Buffet arrangement with multiple food stations",
     items: [],
   },
