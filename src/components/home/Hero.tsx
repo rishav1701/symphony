@@ -5,6 +5,7 @@ import { Container } from "@/components/shared/Container";
 import { Button } from "@/components/shared/Button";
 import { Eyebrow } from "@/components/shared/Eyebrow";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 export function Hero() {
   const headlineRef = useRef<HTMLDivElement>(null);
@@ -30,7 +31,13 @@ export function Hero() {
       {/* Background layers */}
       <div className="absolute inset-0">
         {/* Placeholder hero image (gradient) — replace with real image */}
-        <div className="absolute inset-0 bg-gradient-to-br from-navy via-royal/50 to-navy" />
+        <Image
+          src="/images/hero-auditorium-new.png"
+          alt="Hero Image"
+          fill
+          priority
+          className="object-cover"
+        />
         {/* Navy overlay gradient */}
         <div
           className="absolute inset-0"

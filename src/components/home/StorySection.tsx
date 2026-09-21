@@ -39,7 +39,7 @@ export function StorySection() {
           {/* Image */}
           <Reveal delay={150}>
             <ArchImage
-              src="/images/about.jpg"
+              src="/images/second-image.png"
               alt="Interior view of Symphony Convention Centre"
               width={600}
               height={750}
