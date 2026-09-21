@@ -38,7 +38,7 @@ const services: Service[] = [
     title: "Corporate Events",
     description:
       "Professional event hosting with modern AV capabilities, flexible layouts, and the amenities your team and guests expect.",
-    image: "/images/services-corporate.jpg",
+    image: "/images/coorporate-events.png",
     imageAlt: "Corporate event setup with stage and seating",
     cta: { label: "Enquire about corporate events", href: "/contact?type=corporate-event" },
   },
@@ -48,7 +48,7 @@ const services: Service[] = [
     title: "Seminars",
     description:
       "Lecture-hall seating, presentation-ready infrastructure, and a focused environment suited for seminars, workshops, and conferences.",
-    image: "/images/services-seminars.jpg",
+    image: "/images/seminar-image.png",
     imageAlt: "Seminar setup with rows of seating",
     cta: { label: "Enquire about seminars", href: "/contact?type=conference" },
   },
@@ -58,7 +58,7 @@ const services: Service[] = [
     title: "Private Celebrations",
     description:
       "Birthdays, anniversaries, engagements — private celebrations deserve a setting that feels special without being overwhelming.",
-    image: "/images/services-private.jpg",
+    image: "/images/private-celebrations.jpg",
     imageAlt: "Private celebration setup at Symphony Convention Centre",
     cta: { label: "Enquire about celebrations", href: "/contact?type=birthday" },
   },
