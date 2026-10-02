@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { SiteShell } from "@/components/layout/SiteShell";
 import { siteConfig } from "@/data/site";
 import { buildJsonLd } from "@/lib/seo";
 import "./globals.css";
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = buildJsonLd();
 
   return (
@@ -59,13 +57,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-ivory text-ink">
-        <Header />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
-        <WhatsAppButton />
+        <SiteShell>{children}</SiteShell>
       </body>
     </html>
   );
 }
+

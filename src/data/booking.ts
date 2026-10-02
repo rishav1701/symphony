@@ -1,13 +1,13 @@
 import type { BookingDay } from "./types";
+import { fetchAvailability } from "@/lib/github";
 
 /**
- * Sample availability data.
- * In production this would come from a database or API.
- * The current month (September 2026) is seeded for demonstration.
+ * Fallback availability data.
+ * Used if API or local storage is empty or during initial render.
  * Dates without a record default to "confirm" (not "available")
  * so the site never over-promises availability.
  */
-const bookingData: BookingDay[] = [
+const fallbackBookingData: BookingDay[] = [
   // September 2026 sample data
   { date: "2026-09-05", status: "booked", note: "Private event" },
   { date: "2026-09-06", status: "booked" },
@@ -45,5 +45,27 @@ export async function getBookingAvailability(
   month: number
 ): Promise<BookingDay[]> {
   const prefix = `${year}-${String(month + 1).padStart(2, "0")}`;
-  return bookingData.filter((d) => d.date.startsWith(prefix));
+
+  try {
+    const raw = await fetchAvailability();
+    const days: BookingDay[] = [];
+
+    if (raw && (raw.available?.length || raw.blocked?.length)) {
+      for (const d of raw.available || []) {
+        if (d.startsWith(prefix)) {
+          days.push({ date: d, status: "available" });
+        }
+      }
+      for (const d of raw.blocked || []) {
+        if (d.startsWith(prefix)) {
+          days.push({ date: d, status: "blocked" });
+        }
+      }
+      return days;
+    }
+  } catch (err) {
+    console.warn("Could not fetch live availability, using fallback:", err);
+  }
+
+  return fallbackBookingData.filter((d) => d.date.startsWith(prefix));
 }
