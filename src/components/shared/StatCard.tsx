@@ -7,13 +7,20 @@ type StatCardProps = {
 
 export function StatCard({ stat }: StatCardProps) {
   return (
-    <div className="card p-6 md:p-8 text-center">
+    <div className="card h-full p-6 md:p-8 text-center">
       {/* Gold accent line */}
       <div className="w-8 h-0.5 bg-gold mx-auto mb-4" aria-hidden="true" />
 
       {/* Large serif value */}
       <div className="font-serif text-3xl md:text-4xl font-semibold text-navy leading-none">
-        {stat.value}
+        {stat.id === "car-parking" && stat.value.startsWith("≈") ? (
+          <>
+            <span className="text-[0.55em] align-baseline">≈</span>
+            {stat.value.slice(1)}
+          </>
+        ) : (
+          stat.value
+        )}
       </div>
 
       {/* Label */}

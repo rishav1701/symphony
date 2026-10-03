@@ -14,9 +14,9 @@ export function VenueStats() {
         <h2 id="venue-highlights-heading" className="sr-only">
           Venue Highlights
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-fr gap-4">
           {venueStats.map((stat, i) => (
-            <Reveal key={stat.id} delay={i * 60}>
+            <Reveal key={stat.id} delay={i * 60} className="h-full">
               <StatCard stat={stat} />
             </Reveal>
           ))}
