@@ -21,12 +21,6 @@ function SocialIcon({ platform }: { platform: string }) {
           <path d="M13.5 21v-8h2.5l.5-3h-3V7.5c0-.9.4-1.5 1.5-1.5H16V3.1c-.3-.1-1.2-.1-2.3-.1-2.3 0-4.2 1.3-4.2 4.2V10H7v3h2.5v8h4Z" />
         </svg>
       );
-    case "YouTube":
-      return (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true" fill="currentColor">
-          <path d="M21.4 7.3a2.8 2.8 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.4.3a2.8 2.8 0 0 0-2 2A29.4 29.4 0 0 0 2.5 12a29.4 29.4 0 0 0 .1 4.7 2.8 2.8 0 0 0 2 2c1.5.3 7.4.3 7.4.3s5.9 0 7.4-.3a2.8 2.8 0 0 0 2-2A29.4 29.4 0 0 0 21.5 12a29.4 29.4 0 0 0-.1-4.7ZM10 15.5v-7l6 3.5-6 3.5Z" />
-        </svg>
-      );
     default:
       return null;
   }
@@ -96,9 +90,15 @@ export function Footer() {
                 Contact
               </h3>
               <div className="space-y-3 text-sm">
-                <p>{contactInfo.phone}</p>
-                <p>{contactInfo.email}</p>
-                <p>{contactInfo.hours}</p>
+                {[contactInfo.phone, ...contactInfo.additionalPhones].map((phone) => (
+                  <a
+                    key={phone}
+                    href={`tel:${phone.replace(/[^+\d]/g, "")}`}
+                    className="block hover:text-white transition-colors"
+                  >
+                    {phone}
+                  </a>
+                ))}
               </div>
             </div>
 
@@ -115,7 +115,7 @@ export function Footer() {
                     key={social.platform}
                     href={social.url}
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     className="flex flex-col items-center gap-2 text-white/50 hover:text-gold transition-colors"
                     aria-label={social.platform}
                   >

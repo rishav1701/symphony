@@ -154,7 +154,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
 
           <div className="flex gap-4 justify-center">
             <a
-              href={`tel:${contactInfo.phone}`}
+              href={`tel:${contactInfo.phone.replace(/[^+\d]/g, "")}`}
               className="flex items-center gap-2 text-white/60 hover:text-white text-sm font-sans transition-colors"
               aria-label="Call Symphony Convention Centre"
             >

@@ -163,6 +163,7 @@ export type SocialLink = {
 
 export type ContactInfo = Placeholderable & {
   phone: string;
+  additionalPhones: string[];
   email: string;
   address: string;
   mapEmbedUrl: string;

@@ -66,12 +66,17 @@ export function Map() {
               <p className="font-semibold text-ink text-xs uppercase tracking-wider mb-0.5">
                 Phone
               </p>
-              <a
-                href={`tel:${contactInfo.phone.replace(/\s+/g, "")}`}
-                className="text-muted hover:text-royal transition-colors"
-              >
-                {contactInfo.phone}
-              </a>
+              <div className="flex flex-col items-start gap-1">
+                {[contactInfo.phone, ...contactInfo.additionalPhones].map((phone) => (
+                  <a
+                    key={phone}
+                    href={`tel:${phone.replace(/[^+\d]/g, "")}`}
+                    className="text-muted hover:text-royal transition-colors"
+                  >
+                    {phone}
+                  </a>
+                ))}
+              </div>
               <PlaceholderNote field="Phone" />
             </div>
           </div>
