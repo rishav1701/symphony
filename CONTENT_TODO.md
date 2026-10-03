@@ -25,14 +25,14 @@ All placeholders in code are flagged with `placeholder: true` or clear dev comme
 
 | Metric | Current Value | File Location | Status |
 |---|---|---|---|
-| **Guest / Seating Capacity** | `1,500+` | `src/data/venue.ts` | Confirm maximum auditorium seating capacity. |
-| **Dining Hall Capacity** | `500+` | `src/data/venue.ts` | Confirm seated dining hall guest capacity. |
-| **Car Parking Spaces** | `50+` | `src/data/venue.ts` | Confirm on-site car parking bays. |
-| **Two-Wheeler Parking** | `50+` | `src/data/venue.ts` | Confirm bike parking bays. |
-| **Private / Bridal Rooms** | `2` | `src/data/venue.ts` | Confirm number and amenities of green/bridal suites. |
+| **Main Opera Hall Capacity** | `2,100+ seated / up to 4,000 floating` | `src/data/venue.ts` | Supplied venue notes. |
+| **Dining Facility Capacity** | Not supplied | `src/data/venue.ts` | Do not publish a capacity unless verified. |
+| **Parking Capacity** | Approximately `500` (unit unspecified) | `src/data/venue.ts` | Do not assume a vehicle type or unit. |
+| **Executive Rooms** | For ladies and gents; count unspecified | `src/data/venue.ts` | Do not infer room count or purpose. |
 | **Stage Dimensions / Setup** | Proscenium stage | `src/data/venue.ts` | Confirm stage width, depth, height, and lighting rig details. |
 | **Power Backup** | Generator backup | `src/data/venue.ts` | Confirm generator capacity (kVA) and automatic switchover. |
-| **Air Conditioning** | Central AC | `src/data/venue.ts` | Confirm tonnage and coverage (main hall, dining, green rooms). |
+| **Air Conditioning** | Fully centralized across all floors | `src/data/venue.ts` | Supplied venue notes. |
+| **Mini Opera Hall Capacity** | `250+ seating` | `src/data/venue.ts` | Supplied venue notes; no floating capacity provided. |
 
 ---
 

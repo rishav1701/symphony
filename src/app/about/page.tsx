@@ -13,7 +13,7 @@ import { PlaceholderNote } from "@/components/shared/PlaceholderNote";
 export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
-    "Learn about Symphony Convention Centre in Chemmanthoor, Punalur, Kollam: 8+ years in business, 250+ weddings, banquet halls, and comprehensive amenities.",
+    "Learn about Symphony Convention Centre at Pineapple Junction, Punalur: established in 2019, with the Main Opera Hall, Mini Opera Hall, separate dining facility, and venue amenities.",
   path: "/about",
 });
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="lg:col-span-7 space-y-6">
             <div>
               <span className="font-sans text-xs font-semibold uppercase tracking-[0.15em] text-gold block mb-2">
-                Our Story · Est. 2018 · 8+ Years · 250+ Weddings
+                Our Story · Est. 2019 · 7 Years · 250+ Weddings
               </span>
               <h1 className="font-serif text-3xl md:text-5xl text-navy font-normal leading-tight">
                 A stunning banquet & convention venue designed for unforgettable memories.
@@ -43,13 +43,13 @@ export default function AboutPage() {
 
             <div className="space-y-5 text-muted leading-relaxed text-base font-sans">
               <p>
-                Step into the world of celebrations at Symphony Convention Centre, a premier banquet hall in Chemmanthoor, Punalur, Kollam. Established in 2018, our venue has proudly hosted over 250 weddings, heartfelt family milestones, and refined corporate gatherings across more than 8 years in business.
+                Step into the world of celebrations at Symphony Convention Centre, a premier venue at Pineapple Junction, Punalur. Established in 2019, our venue has proudly hosted over 250 weddings, heartfelt family milestones, and refined corporate gatherings across 7 years in business.
               </p>
               <p>
-                The property features versatile spaces to suit celebrations of any scale: our grand Symphony Convention Centre Main Hall accommodating 2,000 seated and 3,000 floating guests, alongside the elegant Symphony Mini Hall designed for intimate gatherings of 150 seated and 200 floating guests. With dedicated parking for 500 vehicles, every guest arrives, celebrates, and departs without hassle.
+                The venue is described as one of South Kerala’s largest and most luxurious event spaces. Its Main Opera Hall accommodates 2,100+ seated and up to 4,000 floating guests, while the separate Mini Opera Hall offers 250+ seating. A separate dining facility is available, along with approximately 500 parking capacity.
               </p>
               <p>
-                For hosts and families, the venue offers 3 air-conditioned and Non-AC guest rooms maintained for a comfortable stay experience, plus a private bridal suite perfect for those pre-ceremony moments of calm and final touch-ups. Elegant indoor spaces and beautifully curated outdoor areas can be tailored to fit your exact celebration theme.
+                The venue has well-maintained, separate washrooms for gents and ladies, fully centralized air-conditioning across all floors, and executive rooms for ladies and gents. Elevators are available, with vehicle entry and access to all floor levels.
               </p>
               <p>
                 Guests particularly praise the dining experience, with in-house catering blending local and global flavors with justified, transparent pricing per plate, alongside full freedom for outside catering and decorators. Complete electricity backup, professional stage lighting, top-notch sound systems, and professional DJ setups ensure your event stays high-energy and uninterrupted till the very end.
@@ -63,7 +63,7 @@ export default function AboutPage() {
               <div className="max-w-md mx-auto lg:max-w-none">
                 <ArchImage
                   src="/images/about-auditorium-arch-newest.jpeg"
-                  alt="Symphony Convention Centre main hall and stage"
+                  alt="Symphony Convention Centre Main Opera Hall and stage"
                   width={600}
                   height={800}
                   framed

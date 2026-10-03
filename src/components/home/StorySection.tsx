@@ -19,10 +19,10 @@ export function StorySection() {
 
             <div className="space-y-4 text-ink/80 leading-relaxed">
               <p>
-                Step into the world of celebrations at Symphony Convention Centre, a stunning banquet and convention venue in Chemmanthoor, Punalur, Kollam, designed to turn every occasion into a beautiful memory.
+                Step into the world of celebrations at Symphony Convention Centre, a convention venue at Pineapple Junction, Punalur, designed to turn every occasion into a beautiful memory.
               </p>
               <p>
-                Established in 2018 with 8+ years in business and over 250+ weddings celebrated, we effortlessly blend style, space, and comfort. Featuring our grand 2,000-seat Main Hall (3,000 floating), the 150-seat Symphony Mini Hall, 3 AC guest rooms, a private bridal suite, and dedicated parking for 500 cars, every event unfolds effortlessly.
+                Established in 2019 with 7 years in business and over 250+ weddings celebrated, we effortlessly blend style, space, and comfort. The Main Opera Hall seats 2,100+ and accommodates up to 4,000 floating guests; the separate Mini Opera Hall offers 250+ seating. A separate dining facility and approximately 500 parking capacity serve the venue.
               </p>
               <p>
                 From delicious in-house catering to outside catering and decorator freedom, our full power backup and dedicated team take care of every detail.

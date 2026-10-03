@@ -45,7 +45,7 @@ export default async function CateringPage() {
               </h1>
 
               <p className="text-white/70 text-base md:text-lg max-w-xl leading-relaxed">
-                From traditional banana-leaf Kerala sadyas to contemporary multi-course banquets, Symphony’s dedicated dining halls are designed for seamless hospitality.
+                From traditional banana-leaf Kerala sadyas to contemporary multi-course banquets, Symphony’s separate dining facility is designed for seamless hospitality.
               </p>
 
               <div className="pt-2 flex flex-wrap gap-4">

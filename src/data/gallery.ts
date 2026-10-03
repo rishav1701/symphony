@@ -18,8 +18,8 @@ const galleryItems: GalleryItem[] = [
   },
   {
     id: "g-02", order: 2, published: true,
-    title: "Main Hall Overview", category: "venue-overview",
-    src: "/images/gallery-two-new.jpeg", alt: "Panoramic view of the main auditorium hall",
+    title: "Main Opera Hall Overview", category: "venue-overview",
+    src: "/images/gallery-two-new.jpeg", alt: "Panoramic view of the Main Opera Hall",
     width: 800, height: 1000,
   },
   {

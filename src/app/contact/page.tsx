@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Contact",
   description:
-    "Get in touch with Symphony Convention Centre in Chemmanthoor, Punalur, Kollam for wedding bookings, halls tours, and event reservations.",
+    "Get in touch with Symphony Convention Centre at Pineapple Junction, Punalur for wedding bookings, hall tours, and event reservations.",
   path: "/contact",
 });
 

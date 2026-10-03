@@ -17,7 +17,7 @@ const cateringSections: CateringSection[] = [
     slug: "dining-arrangements",
     title: "Dining Arrangements",
     description:
-      "From seated traditional Sadya to standing buffets and live counters, the halls accommodate seamless dining for up to 3,000 guests.",
+      "A separate dining facility accommodates seated traditional Sadya, standing buffets, and live counters.",
     image: "/images/catering-dining-newest.jpeg",
     imageAlt: "Dining arrangement in the banquet hall",
     items: [],
