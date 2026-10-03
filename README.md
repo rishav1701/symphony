@@ -107,7 +107,7 @@ Place images in the `/public/images/` directory with the following filenames:
 - `hero-auditorium.jpg`
 - `story-preview.jpg`
 - `about-auditorium.jpg`
-- `catering-hero.jpg`
+- `catering-hero-new.png`
 - `gallery-01.jpg` through `gallery-12.jpg`
 - `services-weddings.jpg`, `services-receptions.jpg`, etc.
 - `catering-menu.jpg`, `catering-dining.jpg`, etc.

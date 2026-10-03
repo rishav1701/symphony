@@ -70,7 +70,7 @@ export default async function CateringPage() {
               <Reveal>
                 <div className="max-w-sm mx-auto lg:max-w-none">
                   <ArchImage
-                    src="/images/catering-hero.jpg"
+                    src="/images/catering-hero-new.png"
                     alt="Symphony Convention Centre catering and banquet dining arrangement"
                     width={500}
                     height={600}

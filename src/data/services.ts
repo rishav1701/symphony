@@ -8,7 +8,7 @@ const services: Service[] = [
     title: "Weddings",
     description:
       "A stage set for your most meaningful celebration. Symphony offers the space, the infrastructure, and the atmosphere for weddings of every scale — intimate or grand.",
-    image: "/images/third-image.png",
+    image: "/images/third-image-new.jpeg",
     imageAlt: "Wedding ceremony at Symphony Convention Centre",
     cta: { label: "Enquire about weddings", href: "/contact?type=wedding" },
   },
@@ -18,7 +18,7 @@ const services: Service[] = [
     title: "Receptions",
     description:
       "Host your reception in a space designed for gathering, dining, and celebration. Flexible seating, professional lighting, and catering support included.",
-    image: "/images/fourth-image.png",
+    image: "/images/fourth-image-new.jpeg",
     imageAlt: "Reception event at Symphony Convention Centre",
     cta: { label: "Enquire about receptions", href: "/contact?type=reception" },
   },
@@ -28,7 +28,7 @@ const services: Service[] = [
     title: "Cultural Events",
     description:
       "From classical performances to community programs, the auditorium's acoustics and stage setup support a wide range of cultural events.",
-    image: "/images/fifth-image.png",
+    image: "/images/fifth-image-new.jpeg",
     imageAlt: "Cultural event performance on stage",
     cta: { label: "Enquire about cultural events", href: "/contact?type=cultural-event" },
   },
@@ -38,7 +38,7 @@ const services: Service[] = [
     title: "Corporate Events",
     description:
       "Professional event hosting with modern AV capabilities, flexible layouts, and the amenities your team and guests expect.",
-    image: "/images/coorporate-events.png",
+    image: "/images/corporate-events-new.jpeg",
     imageAlt: "Corporate event setup with stage and seating",
     cta: { label: "Enquire about corporate events", href: "/contact?type=corporate-event" },
   },
@@ -48,7 +48,7 @@ const services: Service[] = [
     title: "Seminars",
     description:
       "Lecture-hall seating, presentation-ready infrastructure, and a focused environment suited for seminars, workshops, and conferences.",
-    image: "/images/seminar-image.png",
+    image: "/images/seminar-image-new.jpeg",
     imageAlt: "Seminar setup with rows of seating",
     cta: { label: "Enquire about seminars", href: "/contact?type=conference" },
   },
@@ -58,7 +58,7 @@ const services: Service[] = [
     title: "Private Celebrations",
     description:
       "Birthdays, anniversaries, engagements — private celebrations deserve a setting that feels special without being overwhelming.",
-    image: "/images/private-celebrations.jpg",
+    image: "/images/private-celebrations-new.jpeg",
     imageAlt: "Private celebration setup at Symphony Convention Centre",
     cta: { label: "Enquire about celebrations", href: "/contact?type=birthday" },
   },
