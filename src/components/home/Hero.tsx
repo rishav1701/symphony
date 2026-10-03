@@ -32,7 +32,7 @@ export function Hero() {
       <div className="absolute inset-0">
         {/* Placeholder hero image (gradient) — replace with real image */}
         <Image
-          src="/images/hero-auditorium-new.png"
+          src="/images/hero-image-symphony.png"
           alt="Hero Image"
           fill
           priority

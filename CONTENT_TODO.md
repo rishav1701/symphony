@@ -70,7 +70,7 @@ All image slots currently use dynamic architectural SVG/gradient fallbacks (`Pla
 | `public/images/hero-auditorium.jpg` | Main hero auditorium hall view | 1920 × 1080 (Landscape) |
 | `public/images/story-preview.jpg` | Home page story arch image | 800 × 1000 (Portrait) |
 | `public/images/about-auditorium.jpg` | About page sticky arch image | 800 × 1000 (Portrait) |
-| `public/images/catering-hero.jpg` | Catering hero arch image | 1000 × 1200 (Portrait) |
+| `public/images/catering-hero-new.png` | Catering hero arch image | 1000 × 1200 (Portrait) |
 | `public/images/gallery-01.jpg` – `12.jpg` | Gallery photos across all 4 categories | 800 × 1000 (4:5 Aspect Ratio) |
 | `public/images/services-*.jpg` | 6 service category images | 800 × 600 (4:3 Aspect Ratio) |
 | `public/images/catering-*.jpg` | 7 dining / food category images | 800 × 500 (16:10 Aspect Ratio) |
