@@ -14,6 +14,7 @@ type ArchImageProps = {
   /** Add the gold offset border frame */
   withFrame?: boolean;
   framed?: boolean;
+  shadow?: "sm" | "lg";
   sizes?: string;
   priority?: boolean;
 };
@@ -30,15 +31,17 @@ export function ArchImage({
   className,
   withFrame = false,
   framed = false,
+  shadow,
   sizes,
   priority = false,
 }: ArchImageProps) {
   const showFrame = withFrame || framed;
+  const shadowClass = shadow ? `arch-shadow-${shadow}` : "";
   const [hasError, setHasError] = useState(false);
 
   if (hasError) {
     return (
-      <div className={clsx("arch-mask", className)}>
+      <div className={clsx("arch-mask", shadowClass, className)}>
         <PlaceholderImage
           name={src.split("/").pop()?.replace(/\.\w+$/, "") || "image"}
           width={width}
@@ -49,7 +52,7 @@ export function ArchImage({
   }
 
   const imageEl = (
-    <div className={clsx("arch-mask", !showFrame && className)}>
+    <div className={clsx("arch-mask", shadowClass, !showFrame && className)}>
       <Image
         src={src}
         alt={alt}
@@ -68,7 +71,7 @@ export function ArchImage({
       <div className={clsx("relative", className)}>
         {imageEl}
         <div
-          className="absolute -bottom-4 -right-4 w-full h-full arch-mask border-2 border-gold -z-10"
+          className="absolute -bottom-2 -right-2 w-full h-full arch-mask border-2 border-gold -z-10"
           aria-hidden="true"
         />
       </div>

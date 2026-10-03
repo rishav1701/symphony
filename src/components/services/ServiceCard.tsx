@@ -34,8 +34,9 @@ export function ServiceCard({ service, index }: ServiceCardProps) {
               alt={service.imageAlt}
               width={700}
               height={500}
-              framed={index % 2 === 0}
-              className="w-full aspect-[4/3] object-cover shadow-sm"
+              framed
+              shadow="sm"
+              className="w-full aspect-[4/3] object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>

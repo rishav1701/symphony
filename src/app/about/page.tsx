@@ -67,7 +67,8 @@ export default function AboutPage() {
                   width={600}
                   height={800}
                   framed
-                  className="w-full aspect-[3/4] object-cover shadow-lg"
+                  shadow="lg"
+                  className="w-full aspect-[3/4] object-cover"
                   sizes="(max-width: 768px) 100vw, 40vw"
                 />
               </div>
