@@ -96,20 +96,11 @@ export function Footer() {
                     href={`tel:${phone.replace(/[^+\d]/g, "")}`}
                     className="block hover:text-white transition-colors"
                   >
-                    {phone}
+                    Phone: {phone}
                   </a>
                 ))}
               </div>
-            </div>
-
-            {/* Location + Social */}
-            <div>
-              <h3 className="font-sans text-xs font-bold tracking-[0.2em] uppercase text-white mb-6">
-                Location
-              </h3>
-              <p className="text-sm mb-6">{contactInfo.address}</p>
-
-              <div className="flex gap-4">
+              <div className="flex gap-4" style={{ marginTop: 36 }}>
                 {contactInfo.socialLinks.map((social) => (
                   <a
                     key={social.platform}
@@ -128,6 +119,14 @@ export function Footer() {
                   </a>
                 ))}
               </div>
+            </div>
+
+            {/* Location + Social */}
+            <div>
+              <h3 className="font-sans text-xs font-bold tracking-[0.2em] uppercase text-white mb-6">
+                Location
+              </h3>
+              <p className="text-sm mb-6">{contactInfo.address}</p>
             </div>
           </div>
 
